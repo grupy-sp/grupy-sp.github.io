@@ -23,7 +23,7 @@ DISPLAY_PAGES_ON_MENU = True
 THEME = "./themes/bootstrap"
 
 # Blogroll
-LINKS = (('Sobre nós', 'http://grupy-sp.github.io/about.html'),)
+LINKS = (('Sobre nós', 'http://grupy-sp.github.io/pages/about.html'),)
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/grupy-sp/encontros'),
