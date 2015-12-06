@@ -1,4 +1,6 @@
 source
 bin
+lib
 local
+include
 *.pyc

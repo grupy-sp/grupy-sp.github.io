@@ -18,16 +18,21 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+DISPLAY_PAGES_ON_MENU = True
+
+THEME = "./themes/bootstrap"
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Sobre nós', 'http://grupy-sp.github.io/about.html'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/grupy-sp/encontros'),
+         ('Facebook', 'https://www.facebook.com/grupysp'),
+         ('Twitter', 'https://twitter.com/grupysp/'),
+         ('Slack', 'https://grupysp.herokuapp.com/'),
+         ('Google Groups',
+          'https://groups.google.com/forum/#!forum/grupy-sp'),
+         ('Meetup', 'http://www.meetup.com/pt/Grupy-SP/'),)
 
 DEFAULT_PAGINATION = 10
 
