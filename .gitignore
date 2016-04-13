@@ -4,3 +4,4 @@ lib
 local
 include
 *.pyc
+output/
